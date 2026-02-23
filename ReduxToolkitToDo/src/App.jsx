@@ -3,7 +3,7 @@ import Todos from "./components/Todos"
 import { useSelector } from "react-redux";
 
 function App() {
- const todos = useSelector((state) => state.todos);
+ const todos = useSelector((state) => state.todo.todos);
   return (
     <>
       <AddTodo/>
