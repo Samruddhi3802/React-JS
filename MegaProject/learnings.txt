@@ -1,0 +1,5 @@
+1- while creating environment variables, always remember that its 
+declaration and accesing depends on through what you create the project
+(like vite or create react app), and always refer to the documentation 
+for the same.
+
